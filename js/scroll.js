@@ -309,7 +309,7 @@ window.onscroll = function() {
   } else {
     document.getElementById("navbar-brand").style.top = "-500px";
   }
-  if(currentScrollPos < 450){
+  if(currentScrollPos < 100){
     document.getElementById("navbar-brand").style.top = "0";
   }
   prevScrollpos = currentScrollPos;
